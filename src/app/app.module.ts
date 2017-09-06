@@ -1,3 +1,4 @@
+import { ShoppingService } from './shopping-list/shopping.service';
 import { Dropdowndirective } from './shared/dropdownDirective';
 import { HeaderComponent } from './header/header.component';
 
@@ -29,7 +30,7 @@ import { ShoppingEditComponent } from './shopping-list/shopping-edit/shopping-ed
   imports: [
     BrowserModule
   ],
-  providers: [],
+  providers: [ShoppingService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
