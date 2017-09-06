@@ -16,4 +16,8 @@ export class ShoppingListComponent implements OnInit {
     new Ingredient("Apples", 5),
     new Ingredient("Mangoes", 2)
   ]
+  onAddIngredientList(ingredient: Ingredient){
+    console.log(ingredient);
+    this.ingredients.push(ingredient);
+  }
 }

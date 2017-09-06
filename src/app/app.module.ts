@@ -1,3 +1,4 @@
+import { Dropdowndirective } from './shared/dropdownDirective';
 import { HeaderComponent } from './header/header.component';
 
 import { BrowserModule } from '@angular/platform-browser';
@@ -23,6 +24,7 @@ import { ShoppingEditComponent } from './shopping-list/shopping-edit/shopping-ed
     RecipeItemComponent,
     ShoppingListComponent,
     ShoppingEditComponent,
+    Dropdowndirective,
     ],
   imports: [
     BrowserModule
